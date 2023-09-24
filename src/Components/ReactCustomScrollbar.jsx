@@ -11,7 +11,7 @@ const ReactCustomScrollbar = ({ theme, children, className, ...props }) => {
                 setTimeout(() => {
                     let content = item.querySelector(".scroll-content");
                     if (content !== null && content.clientHeight > item.clientHeight) {
-                        itemclassList.add("scrollbar-appear");
+                        item.classList.add("scrollbar-appear");
                     }
 
                     if (content !== null && content.clientHeight > item.clientHeight) {

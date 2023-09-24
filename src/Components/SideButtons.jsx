@@ -4,7 +4,7 @@ import react, { useState, useEffect, useRef, memo } from 'react';
 import { useLocation } from "react-router-dom";
 
 // Components
-import useOnClickOutside from '../Functions/UseOnClickOutside';
+import useOnClickOutside from "../Functions/UseOnClickOutside";
 
 const SideButtons = memo((props) => {
     const [show, setShow] = useState(false);

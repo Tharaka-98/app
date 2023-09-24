@@ -12,7 +12,6 @@ const CreativeAgencyPage = lazy(() => import("./Pages/Home/CreativeAgencyPage"))
 
 
 
-
 function App() {
   const [headerHeight, setHeaderHeight] = useState(0);
   const [footerHeight, setFooterHeight] = useState(0);

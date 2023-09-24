@@ -11,7 +11,7 @@ import useOnClickOutside from "../../Functions/useOnClickOutside";
 
 // Components
 import { Input } from '../Form/Form'
-import Buttons from '../Button/Buttons';
+import Buttons from '../../Button/Buttons';
 import ReactCustomScrollbar from "../ReactCustomScrollbar";
 
 // Context
